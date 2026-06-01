@@ -124,7 +124,7 @@ export const portfolioData: Portfolio[] = [
   description:
     "Built a fully functional compiler from scratch that translates a C-like language into runnable 8086 assembly code, executed in emu8086. Implemented across four progressive phases: a hash-table based symbol table with separate chaining and nested scope management; a FLEX-powered lexical analyzer that tokenizes C source with full error detection for malformed literals and unclosed constructs; an ANTLR4-driven syntactic and semantic analyzer that validates type compatibility, scope resolution, array indexing, and function signatures; and a code generation backend that emits real x86 assembly with stack-based expression evaluation, proper function call conventions (BP-relative locals and parameters), and a multi-pass peephole optimizer that eliminates redundant MOV pairs, dead PUSH/POP sequences, and identity arithmetic.",
   technologies: ["C++", "ANTLR4", "FLEX", "x86 Assembly", "Compiler Design"],
-  imageUrl: "/assets/images/portfolio/compiler1.png",
+  imageUrl: "/assets/images/portfolio/Compiler1.png",
   codeUrl: "https://github.com/Himadri-Biswas/CSE-310-Compiler-Lab",
   },
 ];
